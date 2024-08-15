@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Josh Davis's Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- Loading Screen Elements Begin -->
+  <div id="terminal" class="terminal">
+    <span id="prompt">PS C:\Users\</span><span class="cursor"></span><span id="message"></span>
+  </div>
+
+  <!-- Mute/Unmute Button -->
+  <button id="audioControl" class="audio-control">🔈</button>
+
+  <audio id="matrixSoundtrack" src="./The Matrix.mp3" type="audio/mpeg" autoplay loop muted>
+    Your browser does not support the audio element.
+  </audio>
+  <!-- Loading Screen Elements End -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#work">Work</a></li>
+          <li><a class="nav-link scrollto " href="#blog">Tech Article's</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">Who is Josh Davis</h1>
+          <p class="hero-subtitle"><span class="typed"
+              data-typed-items="Freelancer, Designer, Developer, 3D Artist, Army Veteran"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/img/me.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Josh Davis</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Full-Stack Web Developer/ 3D Designer</span></p>
+                        <p><span class="title-s">Email: </span> <span>Joj237@gmail.com</span></p>
+                        <p><span class="title-s">Phone: </span> <span>(719) 242-7089</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skill</p>
+                    <span>HTML & CSS</span> <span class="pull-right">95%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Python</span> <span class="pull-right">70%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>React</span> <span class="pull-right">60%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="50"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Express.js</span> <span class="pull-right">60%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Node.js</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Unreal Engine</span> <span class="pull-right">65%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Blender</span> <span class="pull-right">37%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 37%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About Josh
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      After graduating from Atlas, I've taken the plunge into running my own web development business,
+                      Davis Digital Designs. My time at Atlas equipped me with the skills to build websites from the
+                      ground up, and now I’m putting those skills to work for clients who need practical, user-friendly
+                      solutions.
+
+                      This September, I'm also starting a bachelor’s degree in software engineering at Western Governors
+                      University (WGU). It’s a big step, but I’m excited to keep learning and growing in a field that’s
+                      always changing.
+
+                      My focus is on creating a work-life balance that allows me to spend time with my family while
+                      pursuing projects that matter to me. Whether it's developing a website or tackling new challenges
+                      at WGU, I'm all in.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Services
+              </h3>
+              <p class="subtitle-a">
+                Work I can do.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Design</h2>
+                <p class="s-description text-center">
+                  Harnessing the power of modern web technologies,
+                  I craft bespoke web designs that stand out for their
+                  creativity and usability. By focusing on user experience,
+                  I ensure that each design is not only aesthetically
+                  pleasing but also functional and accessible.
+                  My approach is to create websites that resonate with
+                  your brand's identity and engage your visitors with
+                  a seamless browsing experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Development</h2>
+                <p class="s-description text-center">
+                  My web development services focus on building robust
+                  and scalable websites tailored to your unique needs.
+                  With a certification in computer science and full-stack
+                  development, I am well-versed in the latest programming
+                  languages and frameworks. Whether it's a dynamic
+                  application or an intricate backend system, I deliver
+                  solutions that drive results and enhance user engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Devops Fundementals</h2>
+                <p class="s-description text-center">
+                  Adopting a DevOps approach, I offer services to
+                  streamline and automate your software development
+                  processes. My focus on basic DevOps principles aims to
+                  enhance collaboration, improve deployment strategies,
+                  and ensure continuous integration. With these services,
+                  I set the stage for a more efficient and reliable
+                  software lifecycle.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Responsive Design</h2>
+                <p class="s-description text-center">
+                  In today's multi-device world, responsive design is not
+                  just an option; it's a necessity. I specialize in creating
+                  responsive websites that offer a seamless experience across
+                  all platforms. My designs adapt fluidly to any screen size,
+                  ensuring that your site looks great and functions perfectly
+                  whether on desktop, tablet, or mobile.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">3D & Graphic Design</h2>
+                <p class="s-description text-center">
+                  With a keen eye for design and a creative mind, I
+                  provide graphic design services that bring your ideas
+                  to life. From logos and branding to web graphics and
+                  social media content, I create visual elements that
+                  capture attention and convey messages effectively. My
+                  designs are not only visually appealing but also
+                  strategically crafted to strengthen your brand identity.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Content Management Systems (CMS)</h2>
+                <p class="s-description text-center">
+                  Leveraging my certification in full-stack development,
+                  I provide comprehensive CMS services that empower you
+                  with control over your digital content. I specialize in
+                  customizing platforms that are intuitive and user-friendly,
+                  allowing for easy updates and management of your website's
+                  content, ensuring your site remains dynamic and current.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Counter Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-check"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="237" data-purecounter-duration="1"
+                  class="counter purecounter"></p>
+                <span class="counter-text">PROJECTS COMPLETED</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
+                  class="counter purecounter"></p>
+                <span class="counter-text">YEARS OF EXPERIENCE</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-people"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
+                  class="counter purecounter"></p>
+                <span class="counter-text">TOTAL CLIENTS</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-award"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
+                  class="counter purecounter"></p>
+                <span class="counter-text">CERTIFICATIONS EARNED</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Counter Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">Portfolio</h3>
+              <p class="subtitle-a">Notable projects I have completed with Atlas School and for clients.</p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Woodzeez Rt 66 Dispo website (local business)</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">Mar. 2024</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://woodzeezrt66.com/"><span class="bi bi-link-45deg"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Soaring Eagle Realty Website</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design & Development</span> / <span class="w-date">June 2024 - Aug
+                        2024</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href=""><span class="bi bi-link-45deg"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-3.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Aviation Instrument Trainer (Capstone Project)</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Full-Stack Development</span> / <span class="w-date">Aug 2024 - Aug
+                        2024</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://drive.google.com/file/d/1FNujUz0LJYgD7XrIPwgZbRz1EdIoQ-u9/view?usp=sharing"><span
+                          class="bi bi-link-45deg"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="work-box">
+              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Museum of Imagination</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">21 Dec. 2023</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/JD037/museum-of-imagination"> <span
+                          class="bi bi-link-45deg"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="work-box">
+              <a href="assets/img/work-7.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-7.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Galactic Eatery Custom API Project</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">API Development</span> / <span class="w-date">Apr. 2024</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/JD037/the-galactic-eatery"><span class="bi bi-link-45deg"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= 3D Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">3D Design Projects</h3>
+              <p class="subtitle-a">3D Projects with Unreal Engine 5 and Blender</p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/clips/castlevid.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/castlethumb.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">My First Unreal Project (Unreal Sensei Tutorial)</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">3D Game Design</span> / <span class="w-date">Mar. 2024</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="./assets/img/castlethumb.png"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/clips/fpsvid.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/vid-2.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">My First FPS (Unreal Sensei Tutorial)</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">3D Game Design</span> / <span class="w-date"> Mar. 2024</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="./assets/img/vid-2half.png"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/clips/swordvid.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/sword.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">My First 3D Blender Asset (CG Fast Track Tutorial)</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">3D Asset Design</span> / <span class="w-date">Apr 2024 -present</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="assets/clips/swordvid.mp4"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End 3D Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Charley Ellison (former employer)</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">
+                        "Josh knows when to confer and/or ask for help. He strikes a good balance of being willing to
+                        stretch yet not risk damage to the company or client's property"
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Miranda Davis (Wife)</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">
+                        "Josh has a special ability to view projects from many different perspectives"
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+          
+        </div> -->
+          </div>
+        </div>
+      </div>
+    </div><!-- End Testimonials Section -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Tech & Learning Articles
+              </h3>
+              <p class="subtitle-a">
+                Articles and Posts from my tech and learning journey.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a
+                  href="https://www.linkedin.com/pulse/unveiling-validation-testing-spotify-study-mode-feature-joshua-davis-ubtwc/?trackingId=medm3gZjToivWao4PzEZuQ%3D%3D"><img
+                    src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Development</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a
+                    href="https://www.linkedin.com/pulse/unveiling-validation-testing-spotify-study-mode-feature-joshua-davis-ubtwc/?trackingId=medm3gZjToivWao4PzEZuQ%3D%3D">Unveiling
+                    the Validation: Testing the Spotify 'Study Mode' Feature</a></h3>
+                <p class="card-description">
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/me.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Josh Davis</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 3 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a
+                  href="https://www.linkedin.com/pulse/designer-language-students-journey-through-spotifys-challenge-davis-halac%3FtrackingId=CV9gPla%252BQJ2I6arqi4a38g%253D%253D/?trackingId=CV9gPla%2BQJ2I6arqi4a38g%3D%3D"><img
+                    src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a
+                    href="https://www.linkedin.com/pulse/designer-language-students-journey-through-spotifys-challenge-davis-halac%3FtrackingId=CV9gPla%252BQJ2I6arqi4a38g%253D%253D/?trackingId=CV9gPla%2BQJ2I6arqi4a38g%3D%3D">Designer
+                    Language: A Student's Journey through Spotify's Prototyping Challenge</a></h3>
+                <p class="card-description">
+
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/me.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Josh Davis</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 2 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a
+                  href="https://www.linkedin.com/pulse/understanding-differences-between-static-dynamic-libraries-davis%3FtrackingId=VSZ6j2slk7bbNJx8bbTwbg%253D%253D/?trackingId=VSZ6j2slk7bbNJx8bbTwbg%3D%3D"><img
+                    src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web DEVELOPMENT</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a
+                    href="https://www.linkedin.com/pulse/understanding-differences-between-static-dynamic-libraries-davis%3FtrackingId=VSZ6j2slk7bbNJx8bbTwbg%253D%253D/?trackingId=VSZ6j2slk7bbNJx8bbTwbg%3D%3D">Understanding
+                    the Differences Between Static and Dynamic Libraries</a></h3>
+                <p class="card-description">
+
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/me.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Josh Davis</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 2 min
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Blog Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
+      style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Contact Me
+                      </h5>
+                    </div>
+                    <div>
+                      <div id="contactForm">
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="nameInput" placeholder="Your Name" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" id="emailInput" placeholder="Your Email"
+                                required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="subjectInput" placeholder="Subject" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea class="form-control" id="messageInput" rows="5" placeholder="Message"
+                                required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="button" class="button button-a button-big button-rouded" id="sendButton">Send
+                              Message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch or Reach out
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        As far as the computer science field goes im still young in my journey. If anything has piqued
+                        your interest or you just want to collaborate, don't hesitate to message me. Thank you for
+                        taking the time to view my site and learn a little more about me.
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-geo-alt"></span>Claremore, OK 74017</li>
+                        <li><span class="bi bi-phone"></span> (719) 242-7089</li>
+                        <li><span class="bi bi-envelope"></span> Joj237@gmail.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://www.linkedin.com/in/joshua-davis-c20/"><span class="ico-circle"><i
+                                class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://github.com/JD037"><span class="ico-circle"><i
+                                class="bi bi-github"></i></span></a></li>
+                        <li><a href="./Davis,JoshuaResume.pdf" download="Josh_Davis_Resume">
+                            <i class="bi bi-file-earmark-text"></i> Download My Resume
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <script>
+      document.getElementById('sendButton').addEventListener('click', function () {
+        var name = document.getElementById('nameInput').value;
+        var email = document.getElementById('emailInput').value;
+        var subject = document.getElementById('subjectInput').value;
+        var message = document.getElementById('messageInput').value;
+
+        var gmailUrl = 'https://mail.google.com/mail/?view=cm' +
+          '&to=' + encodeURIComponent('Joj237@gmail.com') +
+          '&su=' + encodeURIComponent(subject) +
+          '&body=' + encodeURIComponent(name + ' (' + email + ') says:\n' + message);
+
+        window.open(gmailUrl);
+      });
+    </script>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <div class="credits">
+              Designed by Joshua Davis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
